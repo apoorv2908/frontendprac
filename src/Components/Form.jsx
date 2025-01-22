@@ -16,7 +16,7 @@ const Form = () => {
     e.preventDefault();
     try {
       const response = await fetch(
-        "https://backendprac.vercel.app//api/users",
+        "https://backendprac-9ed256o7h-apoorv-tiwaris-projects-d8805c70.vercel.app/api/users",
         {
           method: "POST",
           headers: {
